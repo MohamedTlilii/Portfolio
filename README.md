@@ -11,7 +11,6 @@ Welcome to my portfolio! This project showcases my skills, projects, and experie
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
 
@@ -32,10 +31,13 @@ This portfolio is a personal website designed to display my work and provide inf
 - **Frontend**:
   - HTML5
   - JavaScript
-  - Css
+  - CSS
+  - Bootstrap
 
 - **Other Tools**:
   - Git & GitHub
+  - EmailJS
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -43,6 +45,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/MohamedTlilii/Portfolio.git
+
 ## Usage
 
 Welcome to my portfolio! This project showcases my skills, projects,services and experiences as a developer.
@@ -84,25 +87,45 @@ I welcome contributions to my portfolio project! Here's how you can contribute:
 4. Push to the branch (`git push origin feature/contribution`).
 5. Create a new Pull Request.
 
-## License
-
-This portfolio project is licensed under the [MIT License](Mohamedtlili1995@hotmail.com).
-
 ## Screenshots
 
 Here are some screenshots from my portfolio:
 
 ### Homepage
 
-![Homepage](/path/to/homepage/screenshot.png)
+![Homepage](/assets/Ss/1.png)
 
-### Projects Section
+### About Section
 
-![About](/path/to/projects/screenshot.png)
+![About](/assets/Ss/2.png)
+
+### Skills Section
+
+![Skills](/assets/Ss/3.png)
+
+### Resume Section
+
+![Resume](/assets/Ss/4.png)
+![Resume](/assets/Ss/5.png)
+
+### Portfolio Section
+
+![Portfolio](/assets/Ss/6.png)
+![Portfolio](/assets/Ss/6.1.png)
+![Portfolio](/assets/Ss/6.2.png)
+![Portfolio](/assets/Ss/6.3.png)
+![Portfolio](/assets/Ss/6.4.png)
+
+### Services Section
+
+![Services](/assets/Ss/7.png)
+![Services](/assets/Ss/7.1.png)
+![Services](/assets/Ss/7.2.png)
+![Services](/assets/Ss/7.3.png)
 
 ### Contact Form
 
-![Experience](/path/to/contact/form/screenshot.png)
+![Experience](/assets/Ss/8.png)
 
 Feel free to browse through the screenshots to get a visual overview of my portfolio project.
 
