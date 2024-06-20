@@ -36,15 +36,15 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  
+
 
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
-    (function(){
+    (function () {
       emailjs.init('mzO0aBvVVsLJL9-0D'); // Replace YOUR_USER_ID with your actual User ID from EmailJS
     })();
   </script>
-  
+
 
 </head>
 
@@ -294,7 +294,8 @@
               <p><em>karriery-Internship</em></p>
               <ul>
                 <li>I am enhancing my problem-solving skills</li>
-                <li>Developed a responsive portfolio using advanced DOM manipulation with HTML</li>
+                <li>Developed a responsive portfolio</li>
+                <li>Learn Angular TypeScript , Nest.js , PostgresSQL</li>
                 <!-- <li>Recommended and consulted with clients on the most appropriate graphic design</li>
                 <li>Created 4+ design presentations and proposals a month for clients and account managers</li> -->
               </ul>
@@ -397,7 +398,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Services</h2>
-      
+
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -458,11 +459,11 @@
             </div>
           </div><!-- End Service Item -->
 
- 
 
-     
 
-        
+
+
+
 
         </div>
 
@@ -503,7 +504,7 @@
             </div>
           </div>
           <div class="col-lg-8">
-            <form id="contact-form" class="php-email-form" >
+            <form id="contact-form" class="php-email-form">
               <div class="row gy-4">
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -530,7 +531,7 @@
       </div>
     </section>
 
-    
+
     <!-- /Contact Section -->
 
   </main>
@@ -577,12 +578,12 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
       event.preventDefault(); // Prevent the default form submission
-  
+
       // Show loading message
       document.querySelector('.loading').style.display = 'block';
-  
+
       // Prepare the email parameters
       const params = {
         from_name: this.name.value,
@@ -590,22 +591,22 @@
         message: this.message.value,
         subject: this.subject.value
       };
-  
+
       // Send the email
       emailjs.send('service_pl28hib', 'template_v4ccq3w', params)
-        .then(function() {
+        .then(function () {
           // Hide loading message and show success message
           document.querySelector('.loading').style.display = 'none';
           document.querySelector('.sent-message').style.display = 'block';
-  
+
           // Clear the form
           document.getElementById('contact-form').reset();
-  
+
           // Hide success message after 5 seconds
-          setTimeout(function() {
+          setTimeout(function () {
             document.querySelector('.sent-message').style.display = 'none';
           }, 5000);
-        }, function(error) {
+        }, function (error) {
           // Hide loading message and show error message
           document.querySelector('.loading').style.display = 'none';
           document.querySelector('.error-message').style.display = 'block';
@@ -613,8 +614,8 @@
         });
     });
   </script>
-  
-  
+
+
 </body>
 
 </html>
